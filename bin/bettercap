@@ -13,7 +13,7 @@
 
 =end
 
-require 'bettercap'
+require_relative '../lib/bettercap'
 
 begin
   puts BetterCap::BANNER.green.bold

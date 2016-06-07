@@ -61,9 +61,8 @@ def bettercap_autoload( path = '' )
       end
     end
   end
-
   ( deps + files + monkey ).each do |file|
-    require file
+    require_relative "../lib/#{file}"
   end
 end
 
