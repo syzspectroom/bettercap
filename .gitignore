@@ -12,3 +12,4 @@ test_*.conf
 .tags*
 .DS_Store
 hosts
+.byebug_history
